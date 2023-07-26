@@ -1,0 +1,15 @@
+git init
+git config user.name  'moonjongjs'
+git config user.email 'moonseonjong@naver.com'
+git remote add origin  https://github.com/moonjongjs/kurly9.git
+git remote -v
+git remote remove origin
+
+
+git add .
+git commit -m  '리액트 CRA Kurly'
+git push origin master
+//// 저장소 저장완료 /////////////////////////////////////////////////////
+
+//// 배포준비  //////////////////////////////////////////////////////////
+
